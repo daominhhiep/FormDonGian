@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Ký Học Viên</title>
+</head>
+<body style="background: white">
+<fieldset style="width: 300px; background: khaki">
+<form method="get" action="DangKyHocVien.html">
+    <h2 style="color: blue; background-color: aquamarine;"> ĐĂNG KÝ HỌC VIÊN </h2>
+
+    <p style="color: blue">Họ và tên
+        &ensp;&nbsp;<input type = "text" name="yourname" size="20"/></p>
+
+    <p style="color: blue">Ngày sinh
+        &ensp;<input type = "date" name="birthday" size="15"/></p>
+    <p style="color: blue">Giới tính
+        &ensp;<input type="radio" name="gender"/> Nam
+        <input type="radio" name="gender"/> Nữ </p>
+
+    <p style="color: blue">Địa chỉ
+        <textarea cols="50" rows="4"> </textarea></p>
+
+    <p style="color: blue">Lớp
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<select>
+        <option value = "Class">-Chọn lớp-</option>
+        <option>A</option>
+        <option>B</option>
+    </select> </p>
+
+    <p style="color: blue">Email
+        &ensp;&ensp;&ensp;&ensp;&nbsp;<input type = "text" name="email" size="17"/></p>
+    <p style="color: blue">Điện thoại
+        &nbsp;&nbsp;<input type = "number" name="phone" size="17"/></p>                                   &emsp;&emsp;&emsp;&emsp;
+    &ensp;&ensp;<input type="submit" name="Submit Form" value="Đăng ký"/>
+    <input type="reset"  name="Reset Form" value="Nhập lại"/>
+</form>
+</fieldset>
+</body>
+</html>
